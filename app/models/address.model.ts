@@ -4,6 +4,7 @@ export class Address {
     public City: string;
     public State: string;
     public ZipCode: string;
+    public MobileNumber: string;
 }
 
 export class AddressResponse extends Address {
