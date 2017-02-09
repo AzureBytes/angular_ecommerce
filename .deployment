@@ -1,2 +1,2 @@
 [config]
-command = node node_modules/typescript/bin/tsc
+command = npm install & node node_modules/typescript/bin/tsc
