@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { BrochureService } from './services/brochure.service';
 import { Address, AddressResponse } from './models/address.model';
+import { AppSettings } from './app.settings';
 
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
@@ -14,7 +15,7 @@ import 'rxjs/add/operator/map';
   ]
 })
 export class MarketingComponent {
-  private postUrl: string = "http://airal-brochure-api.azurewebsites.net/tables/BrochureRequests";
+  private postUrl: string = AppSettings.API_ENDPOINT;
 
   constructor(private brochureService: BrochureService) { }
 
