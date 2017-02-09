@@ -2,7 +2,7 @@
   "name": "angular-app",
   "version": "1.0.0",
   "scripts": {
-    "preinstall": "npm install --global typescript@^2.0.3 & tsc & node server.js"
+    "start": "npm install --global typescript@^2.0.3 & tsc & node server.js"
   },
   "licenses": [
     {
