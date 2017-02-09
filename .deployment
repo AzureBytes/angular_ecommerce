@@ -1,2 +1,2 @@
 [config]
-command = npm install & node node_modules/typescript/bin/tsc
+command = deploy.cmd
