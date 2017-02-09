@@ -2,7 +2,7 @@
   "name": "angular-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc"
+    "start": "node node_modules/typescript/bin/tsc"
   },
   "licenses": [
     {
