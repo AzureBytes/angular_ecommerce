@@ -2,7 +2,8 @@
   "name": "angular-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "node /node_modules/typescript/bin/tsc"
+    "preinstall": "npm install --global typescript@^2.0.3",
+    "start": "node tsc"
   },
   "licenses": [
     {
@@ -30,10 +31,10 @@
     "rxjs": "5.0.0-beta.12",
     "serve-static": "^1.11.2",
     "systemjs": "0.19.39",
-    "typescript": "^2.0.3",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
+    "typescript": "^2.0.3",
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2"
   }
