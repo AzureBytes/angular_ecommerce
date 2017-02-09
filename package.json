@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "preinstall": "npm install --global typescript@^2.0.3",
-    "start": "node tsc"
+    "start": "tsc & node server.js"
   },
   "licenses": [
     {
